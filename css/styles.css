@@ -90,6 +90,14 @@
   animation: gradientShift 4s ease infinite;
 }
 
+.section__description {
+  max-width: 600px;
+  margin-top: 1rem;
+  margin-inline: auto;
+  color: var(--text-light);
+  text-align: center;
+}
+
 .section__subheader {
   margin-bottom: 10px;
   font-size: 1.2rem;
@@ -98,14 +106,6 @@
   text-transform: uppercase;
   letter-spacing: 0.15em;
   font-weight: 500;
-}
-
-.section__description {
-  max-width: 600px;
-  margin-top: 1rem;
-  margin-inline: auto;
-  color: var(--text-light);
-  text-align: center;
 }
 
 .btn {
@@ -690,40 +690,6 @@ nav.scrolled {
   background-color: var(--primary-color-dark);
 }
 
-.client__card {
-  padding: 2rem 1rem;
-  max-width: 750px;
-  margin-inline: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  text-align: center;
-  background-color: var(--secondary-color-light);
-}
-
-.client__card img {
-  max-width: 200px;
-  margin: auto;
-}
-
-.client__card p {
-  margin-bottom: 1rem;
-  color: var(--text-light);
-}
-
-.client__card h4 {
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: var(--primary-color-dark);
-}
-
-.client__card h4 span {
-  margin-left: 10px;
-  font-size: 1rem;
-  color: var(--text-light);
-}
-
 .blog__grid {
   margin-top: 4rem;
   display: grid;
@@ -960,12 +926,6 @@ nav.scrolled {
 
   .service__grid {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .client__card {
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
   }
 
   .blog__grid {
