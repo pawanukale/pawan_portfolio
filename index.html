@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Pawan Ukale | AI Developer & Full Stack Engineer</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="#"><i class="ri-mail-fill"></i></a>
+        <a href="#"><i class="ri-github-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">Pawan<span>.dev</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#service">Services</a></li>
+            <li class="link"><a href="#client">Collaborations</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/images/header.png" alt="Pawan Ukale - AI Developer" />
+        </div>
+        <div class="header__content">
+          <h4>AI Developer | Data Science Enthusiast | Full Stack Builder</h4>
+          <h1>Hi, I'm Pawan Ukale. I Build Intelligent Systems That Solve Real-World Problems.</h1>
+          <p>
+            I'm a Computer Science (Data Science) student passionate about
+            combining the power of Artificial Intelligence, Data Analytics, and
+            Full Stack Development to craft smart, scalable, and impactful
+            digital experiences.
+          </p>
+          <button class="btn">Let's Collaborate</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/images/about_image_pawan.jpeg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hi, I'm Pawan Ukale</h2>
+        <p>
+          A B.Tech Computer Science (Data Science) student with a deep passion
+          for building AI-powered and data-driven digital solutions. I thrive at
+          the intersection of intelligence and engineering — creating systems
+          that are not just functional, but genuinely impactful.
+        </p>
+        <h4>
+          With expertise spanning Machine Learning, Data Analytics, React.js,
+          Node.js, and MongoDB, I focus on delivering full-cycle solutions —
+          from intelligent backend models to polished, user-centric frontends.
+        </h4>
+        <div class="about__btns">
+          <a href="assets/docs/Pawan_Ukale_CV.pdf" download class="download__btn">
+            Download CV
+          </a>
+          <a href="#"><i class="ri-mail-fill"></i></a>
+          <a href="#"><i class="ri-github-fill"></i></a>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span><i class="ri-robot-line"></i></span>
+        <div>
+          <h4>AI & Machine Learning</h4>
+          <p>
+            Building intelligent models that learn, predict, and automate —
+            turning raw data into actionable insights.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-layout-masonry-line"></i></span>
+        <div>
+          <h4>Full Stack Development</h4>
+          <p>
+            Crafting end-to-end web applications with React.js, Node.js,
+            Express.js, and MongoDB for scalable digital products.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-bar-chart-box-line"></i></span>
+        <div>
+          <h4>Data Analytics</h4>
+          <p>
+            Transforming complex datasets into clear visual stories and
+            strategic intelligence using Python and SQL.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">My Projects</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button class="btn project__btn" data-filter=".ai">AI / ML</button>
+          <button class="btn project__btn" data-filter=".fullstack">Full Stack</button>
+          <button class="btn project__btn" data-filter=".design">
+            UI Design
+          </button>
+        </div>
+      </div>
+      <div class="project__grid">
+
+        <div class="project__card mix ai">
+          <div class="project__card__banner">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80" alt="Cybersecurity AI" />
+            <span class="project__tag">AI / ML</span>
+          </div>
+          <div class="project__card__body">
+            <div class="project__award">&#127942; Best Paper Award Winner</div>
+            <h4>AI Phishing &amp; Malware Detection</h4>
+            <p>I developed a real-time cybersecurity AI system that detects phishing URLs and malware patterns using machine learning classification models and NLP techniques.</p>
+            <div class="project__tech">
+              <span>Python</span><span>Scikit-learn</span><span>Flask</span><span>NLP</span>
+            </div>
+            <div class="project__links">
+              <a href="#"><i class="ri-github-fill"></i> Code</a>
+              <a href="#"><i class="ri-external-link-line"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card mix fullstack">
+          <div class="project__card__banner">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80" alt="Gym Fitness" />
+            <span class="project__tag">Full Stack</span>
+          </div>
+          <div class="project__card__body">
+            <h4>FitTrackPro</h4>
+            <p>I built a comprehensive web-based Gym Management System with member tracking, subscription management, workout schedules, and admin dashboards using the MERN stack.</p>
+            <div class="project__tech">
+              <span>React.js</span><span>Node.js</span><span>MongoDB</span><span>Express</span>
+            </div>
+            <div class="project__links">
+              <a href="#"><i class="ri-github-fill"></i> Code</a>
+              <a href="#"><i class="ri-external-link-line"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card mix design fullstack">
+          <div class="project__card__banner">
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=600&q=80" alt="Web Design" />
+            <span class="project__tag">Full Stack · UI</span>
+          </div>
+          <div class="project__card__body">
+            <h4>PACCE-X Dynamic Website</h4>
+            <p>I designed and developed a dynamic website for PACCE-X company featuring modern UI, content management integration, responsive design, and event management modules.</p>
+            <div class="project__tech">
+              <span>HTML/CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+            </div>
+            <div class="project__links">
+              <a href="#"><i class="ri-github-fill"></i> Code</a>
+              <a href="#"><i class="ri-external-link-line"></i> Live</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card mix fullstack">
+          <div class="project__card__banner">
+            <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=600&q=80" alt="Dairy Business" />
+            <span class="project__tag">Full Stack</span>
+          </div>
+          <div class="project__card__body">
+            <h4>Dairy Business Management App</h4>
+            <p>I created an end-to-end business digitalization platform for dairy operations, including inventory management, sales tracking, billing, and supplier management systems.</p>
+            <div class="project__tech">
+              <span>React.js</span><span>Node.js</span><span>MongoDB</span><span>REST API</span>
+            </div>
+            <div class="project__links">
+              <a href="#"><i class="ri-github-fill"></i> Code</a>
+              <a href="#"><i class="ri-external-link-line"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card mix ai">
+          <div class="project__card__banner">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Data Analytics" />
+            <span class="project__tag">AI / ML</span>
+          </div>
+          <div class="project__card__body">
+            <h4>Predictive Analytics Dashboard</h4>
+            <p>I developed an interactive Python-powered dashboard that delivers ML-based forecasting, trend analysis, and KPI visualizations from complex datasets.</p>
+            <div class="project__tech">
+              <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Streamlit</span>
+            </div>
+            <div class="project__links">
+              <a href="#"><i class="ri-github-fill"></i> Code</a>
+              <a href="#"><i class="ri-external-link-line"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card mix design">
+          <div class="project__card__banner">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=600&q=80" alt="UI Design" />
+            <span class="project__tag">UI Design</span>
+          </div>
+          <div class="project__card__body">
+            <h4>AI SaaS UI Kit</h4>
+            <p>I designed a modern design system and component library tailored for AI-focused SaaS products, featuring dark-mode themes, data-dense layouts, and reusable components.</p>
+            <div class="project__tech">
+              <span>Figma</span><span>React.js</span><span>CSS Variables</span>
+            </div>
+            <div class="project__links">
+              <a href="#"><i class="ri-github-fill"></i> Code</a>
+              <a href="#"><i class="ri-external-link-line"></i> Preview</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">What I Offer</p>
+      <h2 class="section__header">My Expertise</h2>
+      <p class="section__description">
+        From intelligent AI systems to robust full-stack applications, I deliver
+        end-to-end digital solutions that drive real-world impact.
+      </p>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-robot-line"></i></span>
+          <h4>AI Solutions</h4>
+          <p>
+            Designing and deploying machine learning models, NLP pipelines, and
+            AI-driven automation tools that solve complex real-world challenges.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-stack-line"></i></span>
+          <h4>Full Stack Development</h4>
+          <p>
+            Building scalable, production-ready web applications using React.js,
+            Node.js, Express.js, and MongoDB with clean REST API architectures.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-bar-chart-2-line"></i></span>
+          <h4>Data Analytics</h4>
+          <p>
+            Extracting meaningful insights from raw datasets using Python, SQL,
+            and visualization tools to support data-driven decision making.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-store-line"></i></span>
+          <h4>Business Digitalization</h4>
+          <p>
+            Transforming traditional business workflows into efficient digital
+            platforms — from inventory systems to customer management portals.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-shield-keyhole-line"></i></span>
+          <h4>Cybersecurity AI Tools</h4>
+          <p>
+            Developing AI-powered security tools including phishing detection,
+            malware classification, and threat intelligence systems.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-database-2-line"></i></span>
+          <h4>Database Architecture</h4>
+          <p>
+            Designing optimized relational (SQL) and non-relational (MongoDB)
+            database schemas for high-performance, data-intensive applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <p class="section__subheader">Collaborations &amp; Work Impact</p>
+      <h2 class="section__header">What People Say About My Work</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/images/clients/client-1.jpg" alt="collaborator" />
+              <div>
+                <p>
+                  Pawan's AI-based phishing detection system was a breakthrough.
+                  His model achieved outstanding accuracy and the research paper
+                  won a Best Paper Award — a true demonstration of his
+                  technical depth and research capability.
+                </p>
+                <h4>Prof. R. Sharma <span>Guide, B.Tech Project</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/images/clients/client-2.jpg" alt="collaborator" />
+              <div>
+                <p>
+                  Working with Pawan on FitTrackPro was an excellent experience.
+                  He delivered a fully functional gym management system with a
+                  clean UI and robust backend — on time and beyond expectations.
+                </p>
+                <h4>Rahul M. <span>Gym Owner &amp; Client</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/images/clients/client-3.jpg" alt="collaborator" />
+              <div>
+                <p>
+                  I redesigned our institutional website with a modern,
+                  dynamic interface. His attention to detail and understanding
+                  of user experience made a significant difference to our
+                  digital presence.
+                </p>
+                <h4>PACCE-X Team <span>Institution Representative</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/images/clients/client-4.jpg" alt="collaborator" />
+              <div>
+                <p>
+                  I built a complete dairy business management app that
+                  streamlined our daily operations. It was exactly what we
+                  needed — intuitive, fast, and perfectly tailored to our
+                  workflow.
+                </p>
+                <h4>Dairy Business Owner <span>Business Client</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Get In Touch</p>
+      <h2 class="section__header">Let's Build Something Together</h2>
+      <p class="section__description">
+        Have a project idea, collaboration opportunity, or just want to talk
+        tech? I'm always open to connecting with innovators and builders.
+      </p>
+      <form action="/" class="contact__form">
+        <div class="input__row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <input type="email" placeholder="Email Address" />
+        <input type="text" placeholder="Project / Collaboration Idea" />
+        <button class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Pawan Ukale</a></h5>
+          <p>
+            Building intelligent systems for a smarter digital future. AI
+            Developer, Data Science Enthusiast, and Full Stack Engineer.
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-mail-fill"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-kaggle-line"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Expertise</h4>
+          <div class="footer__links">
+            <a href="#service">AI Solutions</a>
+            <a href="#service">Full Stack Development</a>
+            <a href="#service">Data Analytics</a>
+            <a href="#service">Cybersecurity AI</a>
+            <a href="#service">Business Digitalization</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <div class="footer__links">
+            <a href="#project">Projects</a>
+            <a href="#service">Services</a>
+            <a href="#contact">Collaborate</a>
+            <a href="assets/docs/Pawan_Ukale_CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright &copy; 2026 Pawan Ukale &mdash; All rights reserved. Building intelligent systems for a smarter digital future.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
